@@ -1,0 +1,2 @@
+﻿$x donne a $y une fessé ou boits 4 gorgées;Action
+$x donne a $y une claque ou boits 1 gorgées;Action
