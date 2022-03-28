@@ -10,20 +10,21 @@ namespace Picolo.ViewModels
 {
     public class PhraseViewModel : BaseViewModel
     {
-        private string p;
+        private string _phrasetext;
         public string P { 
-            get { return p; } 
-            set { SetProperty(ref p, value); }
+            get { return _phrasetext; } 
+            set { SetProperty(ref _phrasetext, value); }
         }
-        private string type;
+
+        private string _type;
         public string Type { 
-            get { return type; } 
-            set { SetProperty(ref type, value);} 
+            get { return _type; } 
+            set { SetProperty(ref _type, value);} 
         }
 
         public PhraseViewModel(Phrase phrase)
         {
-            P = phrase.P;
+            P = phrase.PText;
             Type = phrase.type.ToString();
         }
         private ICommand _tapCommand;

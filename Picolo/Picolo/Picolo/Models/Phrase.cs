@@ -6,13 +6,14 @@ namespace Picolo.Models
 {
     public class Phrase
     {
-        public string P { get; set; }
+        public string PText { get; set; }
+        //public string PTitre { get; set; } Titre d'un question ? permet de personaliser
         public enum Type { Action, CS, Virus, Jeu }
         public Type type { get; set; }
 
         public Phrase()
         {
-            P = "$i dance ou boits 5 gorgés";
+            PText = "$i dance ou boits 5 gorgés";
             type = Type.Action;
         }
     }

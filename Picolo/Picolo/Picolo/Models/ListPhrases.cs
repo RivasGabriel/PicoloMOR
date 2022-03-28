@@ -43,12 +43,12 @@ namespace Picolo.Models
             Console.WriteLine(Phrases);*/
             Phrases.Add(new Phrase
             {
-                P = "$x donne a $y une fessé ou boits 4 gorgées",
+                PText = "$x donne a $y une fessé ou boits 4 gorgées",
                 type = Phrase.Type.Action
             });
             Phrases.Add(new Phrase
             {
-                P = "$x donne a $y une claque ou boits 1 gorgées",
+                PText = "$x donne a $y une claque ou boits 1 gorgées",
                 type = Phrase.Type.Action
             });
 
