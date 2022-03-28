@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Picolo.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,12 +10,12 @@ using Xamarin.Forms.Xaml;
 
 namespace Picolo.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageJeu : ContentPage
     {
         public PageJeu()
         {
             InitializeComponent();
+            BindingContext = new RandomPhraseViewModel();
         }
     }
 }

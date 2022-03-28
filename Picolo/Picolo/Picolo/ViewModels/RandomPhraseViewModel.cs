@@ -21,21 +21,17 @@ namespace Picolo.ViewModels
 
         public RandomPhraseViewModel()
         {
-            string fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "phrases.txt");
-            if (File.Exists(fileName))
+            
+            Phrases.Add(new Phrase
             {
-                string text = File.ReadAllText(fileName);
-                string[] lines = text.Split('\n');
-                foreach (var line in lines) {
-                    string[] s = line.Split(';');
-                    Phrases.Add(new Phrase
-                    {
-                        P = s[0],
-                        type = (Phrase.Type) Enum.Parse(typeof(Phrase.Type), s[1])
-                    });
-                }
-            }
-            Console.WriteLine("=========="+fileName+"============");
+                P = "$x donne a $y une fessé ou boits 4 gorgées",
+                type = Phrase.Type.Action
+            });
+            Phrases.Add(new Phrase
+            {
+                P = "$x donne a $y une claque ou boits 1 gorgées",
+                type = Phrase.Type.Action
+            });
             Console.WriteLine(Phrases);
         }
         public Phrase PhraseSelected
