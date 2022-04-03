@@ -14,11 +14,14 @@ namespace Picolo.Views
     public partial class PhraseView : ContentPage
     {
         Phrase phrase = new Phrase();
+        
         public PhraseView(Phrase phraseSelected)
         {
             InitializeComponent();
             BindingContext = new PhraseViewModel(phraseSelected);
             phrase = phraseSelected;
         }
+
+        
     }
 }

@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace TD2.ViewModels
+namespace Picolo.ViewModels
 {
     public abstract class BaseViewModel : INotifyPropertyChanged
     {
