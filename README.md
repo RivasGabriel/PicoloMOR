@@ -16,7 +16,7 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 ### Configuration
 
-1) **Installer** [Visual Studio](https://visualstudio.microsoft.com/fr/vs/older-downloads/)
+1) **Install** [Visual Studio](https://visualstudio.microsoft.com/fr/vs/older-downloads/)
 2) **Dans un dossier vide** : Dupliquer le depot github qui contient l'application :
 ```sh
    https://github.com/RivasGabriel/PicoloMOR.git
