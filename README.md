@@ -12,7 +12,7 @@ Projet crée avec "_Xamarin Android / iOS_"
     <li><a href="#configuration">Configuration</a></li>
     <li><a href="#utiles">Utiles</a></li>
     <li><a href="#auteurs">Auteurs</a></li>
-    <li><a href="#cdc">Cahier des charges</a></li>
+    <li>[here](#Cahier des charges)</a></li>
   </ul>
 </details>
 
@@ -40,7 +40,7 @@ Projet crée avec "_Xamarin Android / iOS_"
 **OURSEL Alexandre** <br>
 
 
-### CDC
+### Cahier des charges
 
 **Objectif** <br>
 Nous voulons rendre les soirées plus amusantes à l'aide d'une application complète et ludique
