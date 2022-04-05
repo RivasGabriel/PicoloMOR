@@ -17,7 +17,7 @@ Projet crée avec "_Xamarin Android / iOS_"
 </details>
 
 
-### Configuration
+### <div id = "configuration"> Configuration </div>
 
 1) **Install** [Visual Studio](https://visualstudio.microsoft.com/fr/vs/older-downloads/)
 2) **Dans un dossier vide** : Dupliquer le depot github qui contient l'application :
@@ -28,12 +28,12 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 
 
-### Utiles
+### <div id = "utiles"> Utiles </div>
 
   - [UNLIEN]()
  
  
-### Auteurs
+### <div id = "auteurs"> Auteurs </div>
 
 **RIVAS Gabriel** <br>
 **MONI Matisse** <br>
