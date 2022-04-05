@@ -1,0 +1,16 @@
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\bin\Debug\netstandard2.0\PicolMOR.deps.json
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\bin\Debug\netstandard2.0\PicolMOR.dll
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\bin\Debug\netstandard2.0\ref\PicolMOR.dll
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\bin\Debug\netstandard2.0\PicolMOR.pdb
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.csproj.AssemblyReference.cache
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.AssemblyInfoInputs.cache
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.AssemblyInfo.cs
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.csproj.CoreCompileInputs.cache
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.dll
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\ref\PicolMOR.dll
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.pdb
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\Views\AffichePhrase.xaml.g.cs
+C:\Users\mm901345\Desktop\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs

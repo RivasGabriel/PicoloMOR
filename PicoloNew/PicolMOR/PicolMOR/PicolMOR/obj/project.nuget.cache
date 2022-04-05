@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "L0+5pI8juPLbLV5NpxKe59smBIS1Mqp/q4hT/umwMwULvWsK1AQFl7T8IAU+UcZ7sg7ewQmS8oEpxt//IyMCWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mm901345\\Desktop\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mm901345\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mm901345\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mm901345\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
