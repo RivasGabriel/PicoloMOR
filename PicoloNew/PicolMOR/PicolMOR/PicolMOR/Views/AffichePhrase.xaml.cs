@@ -20,16 +20,15 @@ namespace PicolMOR.Views
         Phrase phraseSelect;
         Random random = new Random();
         public ListPhrases Liste = new ListPhrases();
-        
+        public ListPlayer ListeJoueurs = new ListPlayer();
+
 
         public AffichePhrase()
         {
             InitializeComponent();
             Liste.RemplireList();
+            ListeJoueurs.RemplireList();
             phrases = Liste.TabPhrases;
-            players.Add(new Player { Name = "Matisse", gender = Player.Gender.Homme });
-            players.Add(new Player { Name = "Gaby", gender = Player.Gender.Femme });
-            players.Add(new Player { Name = "Alex", gender = Player.Gender.Autre });
             Console.WriteLine("=======================================================================");
             changeText();
         }
@@ -50,7 +49,7 @@ namespace PicolMOR.Views
 
         string RewrightPhrase(string p)
         {
-            List<Player> tmp = players.ToList();
+            List<Player> tmp = ListeJoueurs.TabPlayer.ToList();
             if (p.Contains("$P1"))
             {
                 Console.WriteLine("P1");
