@@ -36,7 +36,7 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 **RIVAS Gabriel** <br>
 **MONI Matisse** <br>
-**OURSEL Alexandre** <br>
+**OURSEL Alexandre** <br><br>
 
 
 ### <div id = "cdc"> Cahier des charges </div>
