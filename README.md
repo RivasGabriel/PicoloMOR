@@ -48,13 +48,13 @@ Nous voulons rendre les soirées plus amusantes à l'aide d'une application comp
 Application destinée aux étudiants majeurs.
 
 **Description fonctionnelle des besoins** <br>
-Fonctions principales :
 <ul>
+ Fonctions principales :
  <li>Enregistrer un certains nombre de joueurs (minimum 3) </li>
  <li>Afficher une des phrases avec un des joueurs de manière aléatoire </li>
 </ul>
-Sous-fonctions :
 <ul>
+ Sous-fonctions :
  <li>Ajout d'une ou plusieurs question(s) </li>
  <li>Suppression d'une ou plusieurs question(s) </li>
  <li>Modification d'une ou plusieurs question(s) </li>
@@ -62,4 +62,3 @@ Sous-fonctions :
 
 **Délais** <br>
 Date de rendu limite : _03 Mai 2022_
-
