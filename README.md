@@ -50,7 +50,7 @@ Application destinée aux étudiants majeurs.
 **Description fonctionnelle des besoins** <br>
 Fonctions principales : <br>
 - Enregistrer un certains nombre de joueurs (minimum 3) <br>
-- Afficher une des phrases avec un des joueurs de manière aléatoire <br><br>
+- Afficher une des phrases avec un des joueurs de manière aléatoire <br>
 Sous-fonctions : <br>
 - Ajout d'une ou plusieurs question(s) <br>
 - Suppression d'une ou plusieurs question(s) <br>
