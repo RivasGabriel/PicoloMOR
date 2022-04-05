@@ -48,7 +48,7 @@ Nous voulons rendre les soirées plus amusantes à l'aide d'une application comp
 Application destinée aux étudiants majeurs.
 
 **Description fonctionnelle des besoins** <br>
- Fonctions principales :
+Fonctions principales :
  <li>Enregistrer un certains nombre de joueurs (minimum 3) </li>
  <li>Afficher une des phrases avec un des joueurs de manière aléatoire </li>
 Sous-fonctions :
