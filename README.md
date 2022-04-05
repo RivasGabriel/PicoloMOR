@@ -26,10 +26,25 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 
 ### Utiles
-  - [View Binding](https://developer.android.com/topic/libraries/view-binding)
-  - [RecyclerView - liste dynamique](https://developer.android.com/guide/topics/ui/layout/recyclerview)
-  - [Tabbed activity - menu](https://www.tutorialspoint.com/how-to-create-tab-layout-in-an-android-app-using-kotlin)
 
-
-
+  - [UNLIEN]()
+ 
 ### Auteurs
+
+**RIVAS Gabriel**
+**MONI Matisse**
+**OURSEL Alexandre**
+
+### Cahier des charges
+
+**Objectif**
+
+**Périmètre**
+
+**Description fonctionnelle des besoins**
+
+**Objectif du projet**
+
+**Délais**
+
+
