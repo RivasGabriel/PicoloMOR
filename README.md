@@ -24,19 +24,19 @@ Projet crée avec "_Xamarin Android / iOS_"
 ```sh
    https://github.com/RivasGabriel/PicoloMOR.git
    ```
-3) **Dans Visual studio installer** : Télécharger l'extension développement mobile en .net et ouvrer le dossier clone dans **Visual studio**<br>
+3) **Dans Visual studio installer** : Télécharger l'extension développement mobile en .net et ouvrer le dossier clone dans **Visual studio** <br> <br>
 
 
 ### <div id = "utiles"> Utiles </div>
 
-  - [UNLIEN]() <br>
+  - [UNLIEN]() <br> <br>
  
  
 ### <div id = "auteurs"> Auteurs </div>
 
 **RIVAS Gabriel** <br>
 **MONI Matisse** <br>
-**OURSEL Alexandre** <br><br>
+**OURSEL Alexandre** <br> <br>
 
 
 ### <div id = "cdc"> Cahier des charges </div>
