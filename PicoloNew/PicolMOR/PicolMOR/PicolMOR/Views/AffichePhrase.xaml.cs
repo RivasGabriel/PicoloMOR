@@ -3,6 +3,7 @@ using Picolo.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,16 +23,38 @@ namespace PicolMOR.Views
         ListPhrases Liste = new ListPhrases();
         ListPlayer ListeJoueurs = new ListPlayer();
         int nbPhrases = 0;
+        int nbPlayer;
 
 
         public AffichePhrase()
         {
             InitializeComponent();
-            Liste.RemplireList();
+            //Liste.RemplireList();
+            addFromText();
             ListeJoueurs.RemplireList();
+            nbPlayer = ListeJoueurs.TabPlayer.Count;
             phrases = Liste.TabPhrases.ToList();
             Console.WriteLine("=======================================================================");
             changeText();
+        }
+
+        void addFromText()
+        {
+            var tmp = System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(AffichePhrase)).Assembly;
+            Stream s = tmp.GetManifestResourceStream("PicolMOR.donnees.txt");
+            StreamReader sr = new StreamReader(s);
+            string contenu = sr.ToString();
+            string[] tabphrase = contenu.Split('\n');
+            foreach (var line in tabphrase)
+            {
+                string[] tabLine = line.Split(';');
+                Liste.TabPhrases.Add(new Phrase
+                {
+                    PText = tabLine[0],
+                    type = (Phrase.Type)Enum.Parse(typeof(Phrase.Type), tabLine[1]),
+                    minPlayers = int.Parse(tabLine[3])
+                });
+            }
         }
 
         Phrase setPhraseText()
@@ -87,7 +110,7 @@ namespace PicolMOR.Views
 
         }
 
-        async void RefreshPhrase(object sender, EventArgs args)
+        void RefreshPhrase(object sender, EventArgs args)
         {
             if(nbPhrases == 20 || phrases.Count == 0)
             {
