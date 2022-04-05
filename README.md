@@ -27,7 +27,6 @@ Projet crée avec "_Xamarin Android / iOS_"
 3) **Dans Visual studio installer** : Télécharger l'extension développement mobile en .net et ouvrer le dossier clone dans **Visual studio**
 
 
-
 ### <div id = "utiles"> Utiles </div>
 
   - [UNLIEN]()
@@ -37,7 +36,7 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 **RIVAS Gabriel** <br>
 **MONI Matisse** <br>
-**OURSEL Alexandre** <br>
+**OURSEL Alexandre**
 
 
 ### <div id = "cdc"> Cahier des charges </div>
