@@ -29,11 +29,13 @@ Projet crée avec "_Xamarin Android / iOS_"
 
   - [UNLIEN]()
  
+ 
 ### Auteurs
 
-**RIVAS Gabriel**
-**MONI Matisse**
-**OURSEL Alexandre**
+**RIVAS Gabriel** <br>
+**MONI Matisse** <br>
+**OURSEL Alexandre** <br>
+
 
 ### Cahier des charges
 
@@ -42,8 +44,6 @@ Projet crée avec "_Xamarin Android / iOS_"
 **Périmètre**
 
 **Description fonctionnelle des besoins**
-
-**Objectif du projet**
 
 **Délais**
 
