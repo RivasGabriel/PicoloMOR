@@ -1,4 +1,6 @@
- # PicoloMOR
+# **ReadME INCOMPLÈT**
+
+# PicoloMOR
  
 Notre application se base sur le principe d'un Picolo.
 Elle se compose d'un _DETAILS_. <br>
@@ -43,7 +45,7 @@ Projet crée avec "_Xamarin Android / iOS_"
 Nous voulons rendre les soirées plus amusantes à l'aide d'une application complète et ludique
 
 **Périmètre** <br>
-Application plus adaptée aux étudiants majeurs.
+Application destinée aux étudiants majeurs.
 
 **Description fonctionnelle des besoins** <br>
 Fonctions principales : <br>
