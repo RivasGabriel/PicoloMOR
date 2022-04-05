@@ -39,22 +39,22 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 ### Cahier des charges
 
-**Objectif**
+**Objectif** <br>
 Nous voulons rendre les soirées plus amusantes à l'aide d'une application complète et ludique
 
-**Périmètre**
+**Périmètre** <br>
 Application plus adaptée aux étudiants majeurs.
 
-**Description fonctionnelle des besoins**
+**Description fonctionnelle des besoins** <br>
 Fonctions principales : <br>
 - Enregistrer un certains nombre de joueurs (minimum 3) <br>
 - Afficher une des phrases avec un des joueurs de manière aléatoire <br><br>
 
 Sous-fonctions : <br>
-- Ajout d'une ou plusieurs question(s)
-- Suppression d'une ou plusieurs question(s)
-- Modification d'une ou plusieurs question(s)
+- Ajout d'une ou plusieurs question(s) <br>
+- Suppression d'une ou plusieurs question(s) <br>
+- Modification d'une ou plusieurs question(s) <br>
 
-**Délais**
-
+**Délais** <br>
+Date de rendu limite : _03 Mai 2022_
 
