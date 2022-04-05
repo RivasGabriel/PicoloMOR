@@ -15,12 +15,13 @@ namespace PicolMOR.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AffichePhrase : ContentPage
     {
-        ObservableCollection<Phrase> phrases = new ObservableCollection<Phrase>();
+        List<Phrase> phrases = new List<Phrase>();
         ObservableCollection<Player> players = new ObservableCollection<Player>();
         Phrase phraseSelect;
         Random random = new Random();
-        public ListPhrases Liste = new ListPhrases();
-        public ListPlayer ListeJoueurs = new ListPlayer();
+        ListPhrases Liste = new ListPhrases();
+        ListPlayer ListeJoueurs = new ListPlayer();
+        int nbPhrases = 0;
 
 
         public AffichePhrase()
@@ -28,7 +29,7 @@ namespace PicolMOR.Views
             InitializeComponent();
             Liste.RemplireList();
             ListeJoueurs.RemplireList();
-            phrases = Liste.TabPhrases;
+            phrases = Liste.TabPhrases.ToList();
             Console.WriteLine("=======================================================================");
             changeText();
         }
@@ -88,7 +89,23 @@ namespace PicolMOR.Views
 
         async void RefreshPhrase(object sender, EventArgs args)
         {
-            changeText();
+            if(nbPhrases == 20 || phrases.Count == 0)
+            {
+                champPhrase.Text = "Fin du jeu";
+                BoutonRefresh.Text = "Rejouer";
+                nbPhrases = 0;
+                phrases = Liste.TabPhrases.ToList();
+            }
+            else
+            {
+                if (BoutonRefresh.Text == "Rejouer")
+                {
+                    BoutonRefresh.Text = "Refresh";
+                }
+                changeText();
+                nbPhrases += 1;
+            }
+
         }
 
     }

@@ -7,7 +7,7 @@
             <Label x:Name="champPhrase" Text="Hello World"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Refresh" Clicked="RefreshPhrase"/>
+            <Button x:Name="BoutonRefresh" Text="Refresh" Clicked="RefreshPhrase"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
