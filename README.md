@@ -1,4 +1,4 @@
-**README INCOMPLÈT**
+**README INCOMPLET**
 
 # PicoloMOR
  
