@@ -41,7 +41,7 @@ namespace Picolo.Models
             }
             Console.WriteLine("=========="+fileName+"============");
             Console.WriteLine(Phrases);*/
-            Phrases.Add(new Phrase
+            /*Phrases.Add(new Phrase
             {
                 PText = "$x donne a $y une fessé ou boits 4 gorgées",
                 type = Phrase.Type.Action
@@ -50,7 +50,7 @@ namespace Picolo.Models
             {
                 PText = "$x donne a $y une claque ou boits 1 gorgées",
                 type = Phrase.Type.Action
-            });
+            });*/
 
 
 

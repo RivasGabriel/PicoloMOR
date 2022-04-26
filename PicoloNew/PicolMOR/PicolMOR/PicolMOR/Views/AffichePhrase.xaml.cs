@@ -22,6 +22,7 @@ namespace PicolMOR.Views
         Random random = new Random();
         ListPhrases Liste = new ListPhrases();
         ListPlayer ListeJoueurs = new ListPlayer();
+        int NB_TOUR_PARTIE = 20;
         int nbPhrases = 0;
         int nbPlayer;
 
@@ -29,7 +30,6 @@ namespace PicolMOR.Views
         public AffichePhrase()
         {
             InitializeComponent();
-            //Liste.RemplireList();
             addFromText();
             ListeJoueurs.RemplireList();
             nbPlayer = ListeJoueurs.TabPlayer.Count;
@@ -43,7 +43,7 @@ namespace PicolMOR.Views
             var tmp = System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(AffichePhrase)).Assembly;
             Stream s = tmp.GetManifestResourceStream("PicolMOR.donnees.txt");
             StreamReader sr = new StreamReader(s);
-            string contenu = sr.ToString();
+            string contenu = sr.ReadToEnd();
             string[] tabphrase = contenu.Split('\n');
             foreach (var line in tabphrase)
             {
@@ -52,7 +52,7 @@ namespace PicolMOR.Views
                 {
                     PText = tabLine[0],
                     type = (Phrase.Type)Enum.Parse(typeof(Phrase.Type), tabLine[1]),
-                    minPlayers = int.Parse(tabLine[3])
+                    minPlayers = int.Parse(tabLine[2])
                 });
             }
         }
@@ -112,7 +112,7 @@ namespace PicolMOR.Views
 
         void RefreshPhrase(object sender, EventArgs args)
         {
-            if(nbPhrases == 20 || phrases.Count == 0)
+            if(nbPhrases == NB_TOUR_PARTIE || phrases.Count == 0)
             {
                 champPhrase.Text = "Fin du jeu";
                 BoutonRefresh.Text = "Rejouer";

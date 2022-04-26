@@ -30,7 +30,7 @@ namespace Picolo.ViewModels
         }
 
         
-        private ICommand _tapCommand;
+        //private ICommand _tapCommand;
  
         //public ICommand TapCommand => _tapCommand ?? _tapCommand = new Command(OnTapped);
 
@@ -39,7 +39,7 @@ namespace Picolo.ViewModels
             // Do stuff
         }
 
-        public string PrenomRandom()
+        /*public string PrenomRandom()
         {
             Random rd = new Random();
             int rand_num_prenom = rd.Next(0, System.Enum.GetNames(typeof(Player)).Length);
@@ -93,7 +93,7 @@ namespace Picolo.ViewModels
             }
            
 
-        }
+        }*/
 
         public PhraseViewModel(Phrase phrase)
         {
@@ -101,7 +101,7 @@ namespace Picolo.ViewModels
 
             P = phrase.PText;
             Type = phrase.type.ToString();
-            Participant = phrase.participant.ToString();
+            //Participant = phrase.participant.ToString();
         }
     }
 }

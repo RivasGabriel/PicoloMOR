@@ -14,7 +14,6 @@ namespace Picolo
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = new RandomPhraseViewModel();
         }
     }
 }

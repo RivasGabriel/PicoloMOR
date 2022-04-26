@@ -11,7 +11,7 @@ namespace Picolo
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PageJeu());
+            MainPage = new PhraseView();
         }
 
         protected override void OnStart()

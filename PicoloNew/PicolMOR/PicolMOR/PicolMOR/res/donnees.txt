@@ -1,3 +1,0 @@
-﻿$P1 bois 3 gorgé ou fait un saute mouton avec tout les joueurs.;Action;1
-$P1 partage 4 gorgé avec $P2.;CS;2
-$P1 donne a $P2 A ou boits 4 gorgées;Action;2
