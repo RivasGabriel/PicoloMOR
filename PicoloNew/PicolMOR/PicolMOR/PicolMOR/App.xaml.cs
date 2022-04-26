@@ -8,7 +8,14 @@ namespace PicolMOR
 {
     public partial class App : Application
     {
-        
+        public static ListPlayer players = new ListPlayer();
+
+        public static ListPlayer UpdateList()
+        {
+            ListPlayer _player = players;
+            return _player;
+        }
+
         public App()
         {
             InitializeComponent();
