@@ -33,6 +33,7 @@ namespace PicolMOR.Views
 
             vue.AddPlayer(player);
 
+
         }
     }
 }

@@ -10,8 +10,8 @@ ItemsSource="{Binding Players}" HasUnevenRows="True">
                     <DataTemplate >
                         <ViewCell >
                             <StackLayout Padding="20" >
-                                <Label Text="{Binding Name}" />
-                                <Label Text="{Binding genderplayer}" />
+                                <Label Text="{Binding TabPlayer.Name}" />
+                                <Label Text="{Binding TabPlayer.gender}" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

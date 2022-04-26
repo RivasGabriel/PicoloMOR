@@ -31,7 +31,7 @@ namespace PicolMOR.Views
         {
             InitializeComponent();
             addFromText();
-            ListeJoueurs.RemplireList();
+            ListeJoueurs.PlayerList();
             nbPlayer = ListeJoueurs.TabPlayer.Count;
             phrases = Liste.TabPhrases.ToList();
             Console.WriteLine("=======================================================================");
