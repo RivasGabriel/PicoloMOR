@@ -991,27 +991,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mm901345\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mm901345\\Desktop\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
       "projectName": "PicolMOR.iOS",
-      "projectPath": "C:\\Users\\mm901345\\Desktop\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
-      "packagesPath": "C:\\Users\\mm901345\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mm901345\\Desktop\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
+      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mm901345\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1025,8 +1022,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\mm901345\\Desktop\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj": {
-              "projectPath": "C:\\Users\\mm901345\\Desktop\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj"
+            "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj": {
+              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj"
             }
           }
         }

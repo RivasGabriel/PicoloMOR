@@ -12,8 +12,9 @@ namespace PicolMOR
         public App()
         {
             InitializeComponent();
-            
-            MainPage = new AffichePhrase();
+
+            //MainPage = new AffichePhrase();
+            MainPage = new ViewPlayer();
         }
 
         protected override void OnStart()

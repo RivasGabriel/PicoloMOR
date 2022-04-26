@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PicolMOR.Views.ViewPlayer">
+    <ContentPage.Content>
+      <StackLayout>
+            <ListView SelectedItem="{Binding PlayerList, Mode=TwoWay}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+ItemsSource="{Binding Players}" HasUnevenRows="True">
+                <ListView.ItemTemplate SelectedItem="{Binding PlayerList}">
+                    <DataTemplate >
+                        <ViewCell >
+                            <StackLayout Padding="20" >
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding genderplayer}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Suivant" BackgroundColor="Coral" TextColor="White"/>
+            <Label/>
+
+
+
+            <Button Text="Ajout Joueur" Margin="35, 15, 35, 25" BackgroundColor="Blue" TextColor="White" Command="{Binding OnShowModalAddUserButtonClicked}" />
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
