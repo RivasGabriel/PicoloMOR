@@ -1,4 +1,5 @@
-﻿using PicolMOR.ViewModels;
+﻿using PicolMOR.Models;
+using PicolMOR.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,11 @@ namespace PicolMOR.Views
         {
             InitializeComponent();
             BindingContext = new PlayerListViewModel();
+        }
+
+        public void Next(Object sender, EventArgs args)
+        {
+            App.players = (ListPlayer)BindingContext;
         }
     }
 }

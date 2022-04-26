@@ -10,14 +10,14 @@ ItemsSource="{Binding Players}" HasUnevenRows="True">
                     <DataTemplate >
                         <ViewCell >
                             <StackLayout Padding="20" >
-                                <Label Text="{Binding TabPlayer.Name}" />
-                                <Label Text="{Binding TabPlayer.gender}" />
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding gender}" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Suivant" BackgroundColor="Coral" TextColor="White"/>
+            <Button Text="Suivant" BackgroundColor="Coral" TextColor="White" Clicked="Next"/>
             <Label/>
 
 

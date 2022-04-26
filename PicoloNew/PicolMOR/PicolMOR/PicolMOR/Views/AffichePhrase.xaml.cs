@@ -32,7 +32,7 @@ namespace PicolMOR.Views
             InitializeComponent();
             addFromText();
             ListeJoueurs.PlayerList();
-            nbPlayer = ListeJoueurs.TabPlayer.Count;
+            nbPlayer = ListeJoueurs.Count;
             phrases = Liste.TabPhrases.ToList();
             Console.WriteLine("=======================================================================");
             changeText();
@@ -73,7 +73,7 @@ namespace PicolMOR.Views
 
         string RewrightPhrase(string p)
         {
-            List<Player> tmp = ListeJoueurs.TabPlayer.ToList();
+            List<Player> tmp = ListeJoueurs.ToList();
             if (p.Contains("$P1"))
             {
                 Console.WriteLine("P1");

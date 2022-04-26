@@ -15,7 +15,7 @@ namespace PicolMOR.ViewModels
     public class PlayerListViewModel: BaseViewModel
     {
         //ObservableCollection<Player> players = new ObservableCollection<Player>();
-        ListPlayer players = new ListPlayer();
+        ListPlayer players ;
         public ListPlayer Players
         {
             get { return players; }
@@ -38,7 +38,7 @@ namespace PicolMOR.ViewModels
                         {
                            
                             case "Supprimer":
-                                Players.TabPlayer.Remove(player);
+                                Players.Remove(player);
                                 break;
                             
                             default:
@@ -76,13 +76,14 @@ namespace PicolMOR.ViewModels
         }
         public void AddPlayer(Player player)
         {
-            Players.TabPlayer.Add(player);
+            Players.Add(player);
             this.Close();
         }
 
         public PlayerListViewModel()
         {
-            
+            players = App.players;
+            players.PlayerList();
         }
     }
 }
