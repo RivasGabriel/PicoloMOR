@@ -8,25 +8,19 @@ using PicolMOR.ViewModel;
 using Xamarin.Forms;
 using Picolo.Models;
 using PicolMOR.Views;
+using PicolMOR.Models;
 
 namespace PicolMOR.ViewModels
 {
     public class PlayerListViewModel: BaseViewModel
     {
-        ObservableCollection<Player> players = new ObservableCollection<Player>();
-        public ObservableCollection<Player> Players
+        //ObservableCollection<Player> players = new ObservableCollection<Player>();
+        ListPlayer players = new ListPlayer();
+        public ListPlayer Players
         {
             get { return players; }
             set { SetProperty(ref players, value); }
         }
-
-        ObservableCollection<Player> genderplayers = new ObservableCollection<Player>();
-        public ObservableCollection<Player> Genderplayers
-        {
-            get { return genderplayers; }
-            set { SetProperty(ref genderplayers, value); }
-        }
-
 
         Player player;
         public Player PlayerList
@@ -39,12 +33,12 @@ namespace PicolMOR.ViewModels
                 {
                     Device.BeginInvokeOnMainThread(async () =>
                     {
-                        string choix = await Application.Current.MainPage.DisplayActionSheet($"Utilisateur{value.Name}", "Retour", "", "Modifier", "Supprimer");
+                        string choix = await Application.Current.MainPage.DisplayActionSheet($"Utilisateur{value.Name}", "Retour", "",  "Supprimer");
                         switch (choix)
                         {
                            
                             case "Supprimer":
-                                Players.Remove(player);
+                                Players.TabPlayer.Remove(player);
                                 break;
                             
                             default:
@@ -56,36 +50,6 @@ namespace PicolMOR.ViewModels
                 }
             }
         }
-
-        //Player playergender;
-        //public Player playergenderlist
-        //{
-        //    get { return playergender; }
-        //    set
-        //    {
-        //        SetProperty(ref playergender, value);
-        //        if(value != null)
-        //        {
-        //            Device.BeginInvokeOnMainThread(async () =>
-        //            {
-        //                string choix = await Application.Current.MainPage.DisplayActionSheet($"Utilisateur{value.gender}", "Retour", "", "Homme", "Femme" ,"Autre");
-        //                switch(choix)
-        //                {
-        //                    case "Homme":
-        //                        //PlayerGenre.Text = "Homme";
-        //                        break;
-        //                    case "Femme":
-        //                        //PlayerGenre.Text = "Femme";
-        //                        break;
-        //                    case "Autre":
-        //                        //PlayerGenre.Text = "Autre";
-        //                        break;
-        //                }
-        //            });                       
-                    
-        //        }
-        //    }
-        //}
 
         public ICommand OnShowModalAddUserButtonClicked
         {
@@ -112,13 +76,13 @@ namespace PicolMOR.ViewModels
         }
         public void AddPlayer(Player player)
         {
-            Players.Add(player);
+            Players.TabPlayer.Add(player);
             this.Close();
         }
 
         public PlayerListViewModel()
         {
-            Players.Add(new Player { Name = "TotoleZozo", gender = Player.Gender.Autre });
+            
         }
     }
 }
