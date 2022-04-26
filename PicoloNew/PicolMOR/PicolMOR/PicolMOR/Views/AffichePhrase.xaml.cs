@@ -41,7 +41,7 @@ namespace PicolMOR.Views
         void addFromText()
         {
             var tmp = System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(AffichePhrase)).Assembly;
-            Stream s = tmp.GetManifestResourceStream("PicolMOR.donnees.txt");
+            Stream s = tmp.GetManifestResourceStream("PicolMOR.res.donnees.txt");
             StreamReader sr = new StreamReader(s);
             string contenu = sr.ReadToEnd();
             string[] tabphrase = contenu.Split('\n');

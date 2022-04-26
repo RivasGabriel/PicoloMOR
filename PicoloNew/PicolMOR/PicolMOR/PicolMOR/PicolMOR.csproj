@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="donnees.txt" />
+    <EmbeddedResource Include="res\donnees.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,7 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="res\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
