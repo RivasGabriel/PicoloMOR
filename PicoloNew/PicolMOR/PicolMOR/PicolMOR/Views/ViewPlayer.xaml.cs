@@ -28,5 +28,11 @@ namespace PicolMOR.Views
         {
             App.players = (ListPlayer)BindingContext;
         }
+
+        public void ShowTn(Object sender, EventArgs args)
+        {
+            tn.Text = Preferences.Get("allname", "");
+            string all_name = tn.Text;
+        }
     }
 }

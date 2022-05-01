@@ -13,7 +13,7 @@ namespace Picolo.Models
 
         public Player(string Name = "Matisse", Gender gender = Gender.Homme) {
             this.Name = Name;
-            this.Name = Preferences.Get("name_" + Name, Name);
+            //this.Name = Preferences.Get("name_" + Name, Name);
             this.gender = gender;
         }
 

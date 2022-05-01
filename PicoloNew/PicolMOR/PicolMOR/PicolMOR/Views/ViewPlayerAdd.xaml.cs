@@ -1,4 +1,5 @@
-﻿using PicolMOR.ViewModels;
+﻿using PicolMOR.Models;
+using PicolMOR.ViewModels;
 using Picolo.Models;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,6 @@ namespace PicolMOR.Views
             vue = viewmodel;
             BindingContext = viewmodel;
         }
-        
 
         public void CreatePlayer(Object sender, EventArgs args)
         {
@@ -32,12 +32,12 @@ namespace PicolMOR.Views
                 gender = Player.Gender.Autre //par defaut
 
             };
+            
+            Preferences.Set("name_", player.Name) ; // le nom du joueur qu'on viens de rentrer
 
-            Preferences.Set("name_" + player.Name, player.Name) ;
+            Preferences.Set("allname", Preferences.Get("allname", "")+ player.Name); // tout le noms des joueurs rentrer stocker dans les préférence
 
             vue.AddPlayer(player);
-
-
         }
     }
 }

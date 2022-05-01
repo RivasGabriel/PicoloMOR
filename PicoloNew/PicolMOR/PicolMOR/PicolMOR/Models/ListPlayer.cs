@@ -19,6 +19,8 @@ namespace PicolMOR.Models
             Add(new Player { Name = "Keira", gender = Player.Gender.Femme });
             Add(new Player { Name = "Vincent", gender = Player.Gender.Homme });
             Add(new Player { Name = "Kevin", gender = Player.Gender.Homme });
+
+            
         }
 
        

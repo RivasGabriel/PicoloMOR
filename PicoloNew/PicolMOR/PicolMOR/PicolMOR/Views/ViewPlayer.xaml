@@ -17,8 +17,8 @@ ItemsSource="{Binding Players}" HasUnevenRows="True" >
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="Suivant" BackgroundColor="Coral" TextColor="White" Clicked="Next"/>
-            <Label/>
+            <Button Text="Suivant" BackgroundColor="Coral" TextColor="White" Clicked="ShowTn"/>
+            <Label Text="Preference -> " x:Name="tn"/>
 
 
 
