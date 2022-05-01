@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,6 +20,7 @@ namespace PicolMOR.Views
             vue = viewmodel;
             BindingContext = viewmodel;
         }
+        
 
         public void CreatePlayer(Object sender, EventArgs args)
         {
@@ -30,6 +32,8 @@ namespace PicolMOR.Views
                 gender = Player.Gender.Autre //par defaut
 
             };
+
+            Preferences.Set("name_" + player.Name, player.Name) ;
 
             vue.AddPlayer(player);
 

@@ -5,8 +5,8 @@
     <ContentPage.Content>
       <StackLayout>
             <ListView SelectedItem="{Binding PlayerList, Mode=TwoWay}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
-ItemsSource="{Binding Players}" HasUnevenRows="True">
-                <ListView.ItemTemplate SelectedItem="{Binding PlayerList}">
+ItemsSource="{Binding Players}" HasUnevenRows="True" >
+                <ListView.ItemTemplate SelectedItem="{Binding PlayerList}" >
                     <DataTemplate >
                         <ViewCell >
                             <StackLayout Padding="20" >

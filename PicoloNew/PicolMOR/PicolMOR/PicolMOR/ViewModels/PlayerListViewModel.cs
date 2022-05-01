@@ -15,6 +15,8 @@ namespace PicolMOR.ViewModels
     public class PlayerListViewModel: BaseViewModel
     {
         //ObservableCollection<Player> players = new ObservableCollection<Player>();
+        
+
         ListPlayer players ;
         public ListPlayer Players
         {
@@ -82,6 +84,8 @@ namespace PicolMOR.ViewModels
 
         public PlayerListViewModel()
         {
+            
+      
             players = App.players;
             players.PlayerList();
         }

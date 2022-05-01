@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Essentials;
 
 namespace Picolo.Models
 {
@@ -12,6 +13,7 @@ namespace Picolo.Models
 
         public Player(string Name = "Matisse", Gender gender = Gender.Homme) {
             this.Name = Name;
+            this.Name = Preferences.Get("name_" + Name, Name);
             this.gender = gender;
         }
 
