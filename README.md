@@ -3,7 +3,7 @@
 # PicoloMOR
  
 Notre application se base sur le principe d'un Picolo.
-Elle se compose d'un _DETAILS_. <br>
+Elle se compose d'une _architecture MVVM_. <br>
 Projet crée avec "_Xamarin Android / iOS_"
 
 <details closed>
@@ -29,7 +29,7 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 ### <div id = "utiles"> Utiles </div>
 
-  - [UNLIEN]() <br> <br>
+  - [Xamarin essential](https://docs.microsoft.com/fr-fr/xamarin/essentials/) <br> <br>
  
  
 ### <div id = "auteurs"> Auteurs </div>
