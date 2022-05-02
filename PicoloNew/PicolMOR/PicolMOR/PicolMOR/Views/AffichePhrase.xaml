@@ -4,6 +4,7 @@
              x:Class="PicolMOR.Views.AffichePhrase">
     <ContentPage.Content>
         <StackLayout Padding="20">
+            <Button Text="&lt;" Clicked="retour" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
             <Label x:Name="champPhrase" Text="Hello World"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
