@@ -19,9 +19,6 @@ ItemsSource="{Binding Players}" HasUnevenRows="True" >
             </ListView>
             <Button Text="Suivant" BackgroundColor="Coral" TextColor="White" Clicked="ShowTn"/>
             <Label Text="Preference -> " x:Name="tn"/>
-
-
-
             <Button Text="Ajout Joueur" Margin="35, 15, 35, 25" BackgroundColor="Blue" TextColor="White" Command="{Binding OnShowModalAddUserButtonClicked}" />
         </StackLayout>
   </ContentPage.Content>

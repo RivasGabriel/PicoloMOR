@@ -3,14 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PicolMOR.Views.ViewPlayerAdd">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="20">
             <Label Text="Saisir vos informations" />
             <Entry x:Name="PlayerName" Placeholder="Pseudo"/>
-           
 
 
-                <Button HorizontalOptions="Start" Text="Annuler" BackgroundColor="Red"  Command="{Binding OnCancelButtonCLicked}"/>
-            <Button HorizontalOptions="End" Text="Creer" BackgroundColor="Green" Clicked="CreatePlayer"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Button HorizontalOptions="StartAndExpand" Text="Creer" BackgroundColor="Green" Clicked="CreatePlayer"/>
+                <Button HorizontalOptions="EndAndExpand" Text="Annuler" BackgroundColor="Red"  Command="{Binding OnCancelButtonCLicked}"/>
+            </StackLayout>
+
 
         </StackLayout>
     </ContentPage.Content>
