@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Picolo.Models;
 
 namespace PicolMOR.Views
 {
@@ -17,6 +18,7 @@ namespace PicolMOR.Views
     public partial class ViewPlayer : ContentPage
     {
         
+        PlayerListViewModel PLM = new PlayerListViewModel();
 
         public ViewPlayer()
         {
@@ -34,5 +36,16 @@ namespace PicolMOR.Views
             tn.Text = Preferences.Get("allname", "");
             string all_name = tn.Text;
         }
+
+        public void SupprName(Object sender, EventArgs args)
+        {
+
+            var button = sender as Button;
+            Player player = button.BindingContext as Player;
+            Preferences.Remove("name_"+player.Name);
+            PLM.removePlayer(player);
+
+        }
+        
     }
 }

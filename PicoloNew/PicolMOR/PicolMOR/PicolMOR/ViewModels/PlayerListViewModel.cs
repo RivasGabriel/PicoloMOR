@@ -82,6 +82,11 @@ namespace PicolMOR.ViewModels
             this.Close();
         }
 
+        public void removePlayer(Player player)
+        {
+            Players.Remove(player);
+        }
+
         public PlayerListViewModel()
         {
             

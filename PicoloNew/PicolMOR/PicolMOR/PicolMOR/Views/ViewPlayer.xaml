@@ -5,13 +5,14 @@
     <ContentPage.Content>
       <StackLayout>
             <ListView SelectedItem="{Binding PlayerList, Mode=TwoWay}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
-ItemsSource="{Binding Players}" HasUnevenRows="True" >
+ItemsSource="{Binding Players}" HasUnevenRows="True" x:Name="List">
                 <ListView.ItemTemplate SelectedItem="{Binding PlayerList}" >
                     <DataTemplate >
                         <ViewCell >
                             <StackLayout Padding="20" >
-                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Name}" x:Name="Nom" />
                                 <Label Text="{Binding gender}" />
+                                <Button Text="Supprimer" Clicked="SupprName" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
