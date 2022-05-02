@@ -9,15 +9,6 @@ namespace PicolMOR
 {
     public partial class App : Application
     {
-        public static ListPlayer players = new ListPlayer();
-
-        
-        public static ListPlayer UpdateList()
-        {
-            ListPlayer _player = players;
-            return _player;
-
-        }
 
         public App()
         {
@@ -25,7 +16,7 @@ namespace PicolMOR
             //Preferences.Set("allname", "");
 
             //MainPage = new AffichePhrase();
-            MainPage = new ViewPlayer();
+            MainPage = new NavigationPage(new ViewPlayer());
         }
 
         protected override void OnStart()

@@ -32,11 +32,11 @@ namespace PicolMOR.Views
            Navigation.PushAsync(new AffichePhrase());
         }
 
-        public async void ShowTn(Object sender, EventArgs args)
+        public void ShowTn(Object sender, EventArgs args)
         {
             tn.Text = Preferences.Get("allname", "");
             string all_name = tn.Text;
-            await Navigation.PushModalAsync(new NavigationPage(new AffichePhrase()));
+            Navigation.PushAsync(new AffichePhrase());
         }
 
         public void SupprName(Object sender, EventArgs args)

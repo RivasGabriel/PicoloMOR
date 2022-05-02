@@ -105,12 +105,6 @@ namespace PicolMOR.Views
             }
             return p;
         }
-
-        private async void retour (Object sender, EventArgs args)
-        {
-            await Navigation.PushModalAsync(new NavigationPage(new ViewPlayer()));
-        }
-
         void changeText()
         {
             setPhraseText();
