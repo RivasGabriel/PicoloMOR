@@ -68,9 +68,9 @@ namespace PicolMOR.ViewModels
                 return new Command(Close);
             }
         }
-        async void Show()
+         void Show()
         {
-            await Application.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(new ViewPlayerAdd(this)));
+             Application.Current.MainPage.Navigation.PushAsync(new ViewPlayerAdd(this));
         }
         void Close()
         {
