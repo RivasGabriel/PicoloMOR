@@ -92,7 +92,6 @@ namespace PicolMOR.ViewModels
             
       
             players = App.players;
-            players.PlayerList();
         }
     }
 }

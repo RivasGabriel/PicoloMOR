@@ -35,7 +35,7 @@ namespace PicolMOR.Views
             
             Preferences.Set("name_", player.Name) ; // le nom du joueur qu'on viens de rentrer
 
-            Preferences.Set("allname", Preferences.Get("allname", "")+ player.Name); // tout le noms des joueurs rentrer stocker dans les préférence
+            Preferences.Set("allname", Preferences.Get("allname", "")+ ";" + player.Name); // tout le noms des joueurs rentrer stocker dans les préférence
 
             vue.AddPlayer(player);
         }

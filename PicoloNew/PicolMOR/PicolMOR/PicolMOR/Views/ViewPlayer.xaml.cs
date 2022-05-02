@@ -28,13 +28,15 @@ namespace PicolMOR.Views
 
         public void Next(Object sender, EventArgs args)
         {
-            App.players = (ListPlayer)BindingContext;
+
+           Navigation.PushAsync(new AffichePhrase());
         }
 
-        public void ShowTn(Object sender, EventArgs args)
+        public async void ShowTn(Object sender, EventArgs args)
         {
             tn.Text = Preferences.Get("allname", "");
             string all_name = tn.Text;
+            await Navigation.PushModalAsync(new NavigationPage(new AffichePhrase()));
         }
 
         public void SupprName(Object sender, EventArgs args)

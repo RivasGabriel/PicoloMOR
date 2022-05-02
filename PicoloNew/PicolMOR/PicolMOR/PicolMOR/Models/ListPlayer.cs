@@ -11,18 +11,6 @@ namespace PicolMOR.Models
     {
         public string Username { get; set; }
 
-        public void PlayerList()
-        {
-            Add(new Player { Name = "Matisse", gender = Player.Gender.Homme });
-            Add(new Player { Name = "Gaby", gender = Player.Gender.Autre });
-            Add(new Player { Name = "Alex", gender = Player.Gender.Homme });
-            Add(new Player { Name = "Keira", gender = Player.Gender.Femme });
-            Add(new Player { Name = "Vincent", gender = Player.Gender.Homme });
-            Add(new Player { Name = "Kevin", gender = Player.Gender.Homme });
-
-            
-        }
-
        
     }
 }

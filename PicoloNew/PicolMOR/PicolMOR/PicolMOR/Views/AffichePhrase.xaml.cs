@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -21,7 +21,6 @@ namespace PicolMOR.Views
         Phrase phraseSelect;
         Random random = new Random();
         ListPhrases Liste = new ListPhrases();
-        ListPlayer ListeJoueurs = new ListPlayer();
         int NB_TOUR_PARTIE = 20;
         int nbPhrases = 0;
         int nbPlayer;
@@ -31,8 +30,12 @@ namespace PicolMOR.Views
         {
             InitializeComponent();
             addFromText();
-            ListeJoueurs.PlayerList();
-            nbPlayer = ListeJoueurs.Count;
+            foreach (string name in Preferences.Get("allname", "").Split(';'))
+            {
+                Player p = new Player(name);
+                players.Add(p);
+            }
+            nbPlayer = players.Count;
             phrases = Liste.TabPhrases.ToList();
             Console.WriteLine("=======================================================================");
             changeText();
@@ -73,7 +76,7 @@ namespace PicolMOR.Views
 
         string RewrightPhrase(string p)
         {
-            List<Player> tmp = ListeJoueurs.ToList();
+            List<Player> tmp = players.ToList();
             if (p.Contains("$P1"))
             {
                 Console.WriteLine("P1");
