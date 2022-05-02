@@ -1,12 +1,2 @@
-Picolo/Picolo/Picolo.Android/bin/
-Picolo/Picolo/Picolo.Android/obj/
-Picolo/Picolo/Picolo.iOS/bin/
-Picolo/Picolo/Picolo.iOS/obj/
-Picolo/Picolo/Picolo/bin/
-Picolo/Picolo/Picolo/obj/
-PicoloNew/Picolo/Picolo.Android/bin/
-PicoloNew/Picolo/Picolo.Android/obj/
-PicoloNew/Picolo/Picolo.iOS/bin/
-PicoloNew/Picolo/Picolo.iOS/obj/
-PicoloNew/Picolo/Picolo/bin/
-PicoloNew/Picolo/Picolo/obj/
+**/bin/
+**/obj/
