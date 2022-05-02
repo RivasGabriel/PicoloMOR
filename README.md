@@ -3,8 +3,8 @@
 # PicoloMOR
  
 Notre application se base sur le principe d'un Picolo.
-Elle se compose d'un _DETAILS_. <br>
-Projet crée avec "_Xamarin Android / iOS_"
+Elle se compose d'une _architecture MVVM_. <br>
+Projet crée avec "_Xamarin Universal plateform / Android / iOS_"
 
 <details closed>
   <summary>Sommaire</summary>
@@ -29,7 +29,8 @@ Projet crée avec "_Xamarin Android / iOS_"
 
 ### <div id = "utiles"> Utiles </div>
 
-  - [UNLIEN]() <br> <br>
+  - [Xamarin essential](https://docs.microsoft.com/fr-fr/xamarin/essentials/) <br>
+  - [Architecture MVVM](https://docs.microsoft.com/fr-fr/xamarin/xamarin-forms/enterprise-application-patterns/mvvm) <br>
  
  
 ### <div id = "auteurs"> Auteurs </div>
