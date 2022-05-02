@@ -70,7 +70,7 @@ namespace PicolMOR.ViewModels
         }
          void Show()
         {
-             Application.Current.MainPage.Navigation.PushAsync(new ViewPlayerAdd(this));
+             Application.Current.MainPage.Navigation.PushModalAsync(new ViewPlayerAdd(this));
         }
         void Close()
         {
@@ -91,11 +91,11 @@ namespace PicolMOR.ViewModels
         public PlayerListViewModel()
         {
 
-            foreach (string name in Preferences.Get("allname", "").Split(';'))
-            {
-                Player p = new Player(name);
-                Players.Add(p);
-            }
+            //foreach (string name in Preferences.Get("allname", "").Split(';'))
+            //{
+            //    Player p = new Player(name);
+            //    Players.Add(p);
+            //}
 
             players = App.players;
         }
