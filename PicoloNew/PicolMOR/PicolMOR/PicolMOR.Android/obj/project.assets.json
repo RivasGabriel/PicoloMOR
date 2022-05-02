@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.Android\\PicolMOR.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.Android\\PicolMOR.Android.csproj",
       "projectName": "PicolMOR.Android",
-      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.Android\\PicolMOR.Android.csproj",
+      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.Android\\PicolMOR.Android.csproj",
       "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.Android\\obj\\",
+      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj"
+            "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj": {
+              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj"
             }
           }
         }

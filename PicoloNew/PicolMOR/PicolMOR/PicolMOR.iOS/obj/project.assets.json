@@ -997,11 +997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
       "projectName": "PicolMOR.iOS",
-      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
+      "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\PicolMOR.iOS.csproj",
       "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1022,8 +1022,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj": {
-              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Travail\\Licence Pro\\ProjetPicolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj"
+            "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj": {
+              "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Documents\\Picolo\\PicoloMOR\\PicoloNew\\PicolMOR\\PicolMOR\\PicolMOR\\PicolMOR.csproj"
             }
           }
         }

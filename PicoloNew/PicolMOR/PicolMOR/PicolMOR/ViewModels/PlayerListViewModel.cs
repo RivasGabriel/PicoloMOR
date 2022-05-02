@@ -9,14 +9,15 @@ using Xamarin.Forms;
 using Picolo.Models;
 using PicolMOR.Views;
 using PicolMOR.Models;
+using Xamarin.Essentials;
 
 namespace PicolMOR.ViewModels
 {
     public class PlayerListViewModel: BaseViewModel
     {
         //ObservableCollection<Player> players = new ObservableCollection<Player>();
-        
 
+        public PlayerListViewModel vue;
         ListPlayer players ;
         public ListPlayer Players
         {
@@ -89,8 +90,13 @@ namespace PicolMOR.ViewModels
 
         public PlayerListViewModel()
         {
-            
-      
+
+            foreach (string name in Preferences.Get("allname", "").Split(';'))
+            {
+                Player p = new Player(name);
+                Players.Add(p);
+            }
+
             players = App.players;
         }
     }
