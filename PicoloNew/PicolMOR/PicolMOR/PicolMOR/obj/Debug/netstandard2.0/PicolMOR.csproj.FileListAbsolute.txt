@@ -36,7 +36,6 @@ C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\Picol
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\bin\Debug\netstandard2.0\PicolMOR.dll
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\bin\Debug\netstandard2.0\ref\PicolMOR.dll
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\bin\Debug\netstandard2.0\PicolMOR.pdb
-C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.csproj.AssemblyReference.cache
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\Views\AffichePhrase.xaml.g.cs
@@ -50,3 +49,4 @@ C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\Picol
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.dll
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\ref\PicolMOR.dll
 C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.pdb
+C:\Users\Utilisateur\Desktop\Documents\Picolo\PicoloMOR\PicoloNew\PicolMOR\PicolMOR\PicolMOR\obj\Debug\netstandard2.0\PicolMOR.csproj.AssemblyReference.cache

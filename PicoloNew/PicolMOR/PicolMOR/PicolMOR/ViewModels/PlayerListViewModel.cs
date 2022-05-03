@@ -17,7 +17,7 @@ namespace PicolMOR.ViewModels
     {
         //ObservableCollection<Player> players = new ObservableCollection<Player>();
 
-        //public PlayerListViewModel vue;
+        public PlayerListViewModel vue;
         ListPlayer players ;
         public ListPlayer Players
         {
@@ -70,7 +70,7 @@ namespace PicolMOR.ViewModels
         }
         void Show()
         {
-            Application.Current.MainPage.Navigation.PushAsync(new ViewPlayerAdd(this));
+            Application.Current.MainPage.Navigation.PushModalAsync(new ViewPlayerAdd(this));
         }
         void Close()
         {
@@ -88,15 +88,19 @@ namespace PicolMOR.ViewModels
             Players.Remove(player);
         }
 
-        /*public PlayerListViewModel()
+        public PlayerListViewModel()
         {
-            foreach (string name in Preferences.Get("allname", "").Split(';'))
-            {
-                Player p = new Player(name);
-                Console.WriteLine(p.Name);
-                players.Add(p);
-            }            
-        }*/
+            //Affiche un doublon
+            //foreach (string name in Preferences.Get("allname", "").Split(';'))
+            //{        
+            //    Player p = new Player(name);
+            //    Console.WriteLine(p.Name);
+            //    App.players.Add(p);             
+            //}
+            
+
+            players = App.players;
+        }
     }
 }
 
