@@ -1,3 +1,9 @@
 ﻿$P1 bois 3 gorgé ou fait un saute mouton avec tout les joueurs.;Action;1
 $P1 partage 4 gorgé avec $P2.;CS;2
 $P1 donne a $P2 A ou boits 4 gorgées;Action;2
+$P1 fait une grimace en se faisant prendre en photo par $P2, et boit 2 gorgées !;Action;2
+$P1, imite un serpent pendant 5 longues secondes ou bois 2 gorgées !;Action;1
+Ceux qui ont déjà habité dans plus de 3 villes boivent 5 gorgées;Action;0
+$P1 raconte une blague ou boit 3 gorgées;Action;1
+$P1 à toi de juger : entre $P2 et $P3, à ton avis qui est le meilleur joueur d'échecs ? Le stratège distrubura 4 gorgées;Action;3
+$P1 si tu as bu moins de 2 verres tu bois 4 gorgées;Action;1
